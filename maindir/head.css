@@ -1,0 +1,141 @@
+:root{
+    --black:#22201b;
+    --grey: #272727;
+    --white: #f6f6f6;
+    --my-font-stack:'Consolas', 'Segoe UI Variable Display Semibold';
+    --my-backgroung-color: var(--grey);
+    --my-body-text-font-size: 15px;
+    --my-body-side-padding: 10px;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+    cursor: text;
+}
+
+body{
+    margin: 0;
+    background-color: var(--my-backgroung-color);
+    color: var(--white);
+    font-size: var(--my-body-text-font-size);
+    padding-left :var(--my-body-side-padding);
+    font-family: var(--my-font-stack);
+    font-weight: 400;
+}
+a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.topbar{
+    display:grid;
+    grid-template-columns: repeat(3, minmax(50px, 50px));
+    background-image: linear-gradient(to right, #1a2125, #221f1a);
+    height: 30px;
+    margin-left: -10px;
+    cursor: default;
+
+}
+
+.topbar button{
+    background-color: transparent;
+    border: 0;
+    box-shadow: 0;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    color: white;;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.topbar button:hover {
+    background-color: #2a2d2e;
+    transition: 0.3s;
+}
+
+.button1 {
+    /* . */
+}
+.button2 {
+    /* .    */
+}
+.button3 {
+    /* . */
+    
+}
+.bottombarcontainer{
+    position: fixed;
+    bottom:0;
+    background-image: linear-gradient(to right, #1a2125, #221f1a);
+    height: 32px;
+    float: left;
+    width: 100%;
+    display: block;
+    margin-left: -10px;
+}
+
+.bottombar{
+   cursor: default;
+   display: grid;
+   float: middle;
+   grid-template-columns: 50% 15% 25% 20%;
+   padding-top: 10px;
+}
+
+.bottombutton{
+    text-align: left;
+    background-color: transparent;
+    border: 0px;
+    width: 100%;
+    display: inline-block;
+    height: 15px;
+    font-family:'Segoe UI';
+    font-size: 15px;
+    color: white;
+    pointer-events: none;
+}
+.linecounter{
+}
+.zoom{
+    /* . */
+}
+.processor{
+    /* . */
+}
+.OS{
+    /* . */
+}
+.Settings{
+    font-size: 40px;
+    font-family: 'Segoe UI Variable Display Semibold';
+    position: relative;
+    top: 3%;
+    padding-left: 3%;
+}
+.panel{
+    position: relative;
+    padding-left: 50px;
+    display: grid;
+    width: 70%;
+    grid-gap: 4px;
+    grid-template-rows: 30% 30% 30% 30% ;
+
+}
+.sdropdown{
+    box-shadow: 0px 0px 0px #2a2d2e;
+    border-radius: 4px;
+    background-color: #2c2b29;
+    position: relative;
+    border: 0px solid #3498db;
+}
+ .container{
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
